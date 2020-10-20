@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Create a Shippment</title>
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/home.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-light">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="nav">
+        <div class="container">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Ship
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./ship.html">Create a shippment</a>
+                            <a class="dropdown-item" href="#">Get a rate and time quote</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Schedule a pickup</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./track.html">Track</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Support</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-primary py-5 mb-5" id="ship_hero">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-12">
+                    <h1 class="display-4 text-white mt-5 mb-2 bold">Create A Shippment</h1>
+                    <p class="lead mb-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
+                        possimus ab
+                        labore provident mollitia. Id assumenda voluptate earum corporis facere quibusdam quisquam iste
+                        ipsa cumque
+                        unde nisi, totam quas ipsam.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <main class="container">
+        <div class="card p-3 mb-3">
+            <div class="row">
+                <div class="col">
+                    <h3 mb-3>From</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control form-control-sm" id="name"
+                                placeholder="First Name and Last Name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Company (optional)</label>
+                            <input type="text" class="form-control form-control-sm" id="company">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="senderLocation">Country/Territory</label>
+                            <input type="email" class="form-control form-control-sm" id="senderLocation">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <input type="text" class="form-control form-control-sm" id="address">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address2">Address 2</label>
+                            <input type="text" class="form-control form-control-sm" id="address2">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address3">Address 3</label>
+                            <input type="text" class="form-control form-control-sm" id="address3">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="address3">Suburb </label>
+                                <input type="text" class="form-control form-control-sm" id="suburb">
+                            </div>
+                            <div class="col">
+                                <label for="address3">City</label>
+                                <input type="text" class="form-control form-control-sm" id="city">
+
+                            </div>
+                            <div class="col">
+                                <label for="address3">State</label>
+                                <input type="text" class="form-control form-control-sm" id="state">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email address </label>
+                            <input type="email" class="form-control form-control-sm" id="email">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="phoneType">Phone type</label>
+                                <select class="form-control" id="phoneType">
+                                    <option value="0">mobile</option>
+                                    <option value="1">office</option>
+                                    <option value="2">other</option>
+                                </select>
+                            </div>
+                            <div class="col">
+                                <label for="code">Code</label>
+                                <input type="text" class="form-control form-control-sm" id="code">
+
+                            </div>
+                            <div class="col">
+                                <label for="phone">Phone</label>
+                                <input type="tel" class="form-control form-control-sm" id="phone">
+                            </div>
+                        </div>
+
+                        <div class="form-check mt-1 mb-1">
+                            <input class="form-check-input" type="checkbox" value="" id="sms">
+                            <label class="form-check-label" for="sms">
+                                SMS enabled
+                            </label>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="vat">VAT/Tax ID </label>
+                            <input type="text" class="form-control form-control-sm" id="vat">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="eori">EORI Number </label>
+                            <input type="text" class="form-control form-control-sm" id="eori">
+                        </div>
+
+                    </form>
+                </div>
+                <div class="col">
+                    <h3 class="mb-3">To</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control form-control-sm" id="name"
+                                placeholder="First Name and Last Name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Company (optional)</label>
+                            <input type="text" class="form-control form-control-sm" id="company">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="senderLocation">Country/Territory</label>
+                            <input type="email" class="form-control form-control-sm" id="senderLocation">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address">Email address</label>
+                            <input type="text" class="form-control form-control-sm" id="address">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="phoneType">Phone type</label>
+                                <select class="form-control" id="phoneType">
+                                    <option value="0">mobile</option>
+                                    <option value="1">office</option>
+                                    <option value="2">other</option>
+                                </select>
+                            </div>
+                            <div class="col">
+                                <label for="code">Code</label>
+                                <input type="text" class="form-control form-control-sm" id="code">
+
+                            </div>
+                            <div class="col">
+                                <label for="phone">Phone</label>
+                                <input type="tel" class="form-control form-control-sm" id="phone">
+                            </div>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="sms">
+                            <label class="form-check-label" for="sms">
+                                SMS enabled
+                            </label>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="vat">VAT/Tax ID </label>
+                            <input type="text" class="form-control form-control-sm" id="vat">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="eori">EORI Number </label>
+                            <input type="text" class="form-control form-control-sm" id="eori">
+                        </div>
+                        <button class="btn btn-success text-white">Next</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
